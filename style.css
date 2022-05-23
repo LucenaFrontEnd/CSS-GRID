@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.corpo {
+    background-color: #444444;
+    padding: 16px;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 16px;  
+}
+
+.cabecalho {
+    background-color: #0c1ec7;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    grid-column: span 4;
+}
+.tiulo__principal {
+    text-align: center;
+}
+    
+.lateral {
+    background-color: #45cc2a;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    grid-row: span 4;
+ 
+}
+
+.meio {
+    background-color: #2aa6cc;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    grid-column: span 2;
+    grid-row: span 4;
+}
+.experiencia {
+    text-align: center;
+}
+
+.direita-cima {
+    background-color: #352acc;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+}
+.direita-baixo {
+    background-color: #cc2a96;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    grid-row: span 3;
+}
